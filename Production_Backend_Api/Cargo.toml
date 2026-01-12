@@ -32,3 +32,6 @@ tracing = "0.1.40"
 tracing-subscriber = { version = "0.3.18", features = ["env-filter"] }
 # HTTP utilities
 tower-http = { version = "0.5.1", features = ["cors", "trace"] }
+
+# Validation
+validator = { version = "0.18", features = ["derive"] }
